@@ -2,6 +2,11 @@
   $large-screen: 50em !default;
   $medium-screen: 30em !default;
 
+  @include media ($large-screen){
+    margin-bottom: 3.375em;
+    border-bottom: 1px solid #e0e3da;
+  }
+
   // Mobile view
   .navigation-menu-button {
     display: block;
@@ -22,6 +27,11 @@
 
   .logo {
     float: left;
+    color: $dark-gray;
+    font-weight: bold;
+    border: 2px solid $dark-gray;
+    padding: 1.3em;
+    margin-bottom: 1.5em;
 
     @include media ($medium-screen) {
       float: none;
@@ -46,7 +56,7 @@
       float: right;
       text-align: center;
       line-height: 1.5em;
-      padding-top: 0.3em;
+      padding-top: 3.375em;
     }
   }
 
@@ -85,6 +95,8 @@
 
   li.nav-link a {
     display: inline-block;
+    color: $dark-gray;
+    font-size: 14px;
 
     @include media ($large-screen) {
       padding-right: 1em;

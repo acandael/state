@@ -25,14 +25,15 @@ html, body {
 
 .footer {
   $large-screen: 50em !default;
+  text-align: center;
 
   .footer-logo {
     margin-bottom: 1em;
     margin-right: 1em;
-
     @include media($large-screen) {
-      float: left;
+      //float: left;
       margin-bottom: 0;
+      display: inline;
     }
 
     img {
@@ -43,10 +44,10 @@ html, body {
   ul {
     margin: 0;
     padding-left: 0;
-
     @include media($large-screen) {
-      float: left;
+      //float: left;
       padding-top: 0.3em;
+      display: inline;
     }
 
     li {

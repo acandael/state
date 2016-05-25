@@ -7,3 +7,15 @@
 
 @import "partials/nav";
 @import "partials/footer";
+
+body {
+  @include outer-container;
+  margin-top: 1.5em;
+}
+
+.action {
+  color: $action-color;
+}
+
+
+
