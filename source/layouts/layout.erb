@@ -8,6 +8,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
+    <!-- <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>-->
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
     <%= stylesheet_link_tag :site %>
@@ -15,7 +16,11 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="wrapper-for-content-outside-of-footer">
+      <%= partial "partials/nav" %>
+      <%= yield %>
+    </div>
+    <%= partial "partials/footer" %>
     <script>
       $(document).ready(function() {
         var menuToggle = $('#js-mobile-menu').unbind();

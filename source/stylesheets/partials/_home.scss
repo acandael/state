@@ -1,0 +1,39 @@
+section.hero {
+  @include span-columns(6);
+  float: left;
+  background-image: url("../images/building.jpg");
+  height: 320px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 3.375em;
+  padding-top: 7.594em;
+  p {
+    color: white;
+    background-color: $dark-gray;
+    opacity: 0.8;
+  }
+  button {
+    position: absolute;
+    bottom: 1.5em;
+    left: 40%;
+  }
+}
+
+section.news {
+  @include span-columns(6);
+  @include omega;
+  float: right;
+  text-align: center;
+}
+
+section.publications {
+  @include span-columns(6);
+  margin-bottom: 3.375em;
+  text-align: center;
+}
+
+section.blog {
+  @include span-columns(6);
+  text-align: center;
+  @include omega;
+}

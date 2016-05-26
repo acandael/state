@@ -7,15 +7,42 @@
 
 @import "partials/nav";
 @import "partials/footer";
+@import "partials/home";
+
 
 body {
   @include outer-container;
   margin-top: 1.5em;
 }
 
-.action {
-  color: $action-color;
+a {
+  color: $dark-gray;
 }
+
+.action {
+  color: #8C7963;
+}
+
+.date {
+  font-size: 0.667em;
+}
+
+div.line {
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 1.25em;
+  width: 25%;
+  line-height: 0;
+  border-bottom: 4px solid $action-color;
+}
+
+.row {
+  clear: both;
+  padding-top: 1.5em;
+}
+
+
+
 
 
 
