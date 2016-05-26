@@ -15,5 +15,9 @@ article.article {
     @include span-columns(8);
     @include shift(2);
     margin-top: 3.375em;
+    p {
+      line-height: 2.25em;
+      margin-bottom: 5.063em;
+    }
   }
 }
