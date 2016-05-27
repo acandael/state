@@ -19,21 +19,23 @@ section.hero {
   }
 }
 
-section.news {
+section.news, section.publications, section.blogfeat {
   @include span-columns(6);
+  text-align: center;
+  p {
+    line-height: 1.5em;
+  }
+}
+
+section.news {
   @include omega;
   float: right;
-  text-align: center;
 }
 
 section.publications {
-  @include span-columns(6);
   margin-bottom: 3.375em;
-  text-align: center;
 }
 
 section.blogfeat {
-  @include span-columns(6);
-  text-align: center;
   @include omega;
 }
