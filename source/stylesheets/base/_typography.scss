@@ -19,6 +19,7 @@ h6 {
 
 p {
   margin: 0 0 $small-spacing;
+  color: lighten($base-font-color, 15);
 }
 
 a {
