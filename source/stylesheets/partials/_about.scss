@@ -7,15 +7,16 @@ header {
 }
 
 section.content {
-  @include span-columns(6);
+  @include span-columns(8);
+  @include shift(2);
   margin-bottom: 3.375em;
 
   p {
     margin-bottom: 3.375em;
   }
+
+  .underline {
+    border-bottom: 2px solid $action-color;
+  }
 }
 
-aside {
-  @include span-columns(6);
-  @include omega;
-}
