@@ -42,3 +42,9 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :blog do |blog|
+  blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.permalink = "blog/{title}.html"
+  blog.prefix = "blog"
+end
