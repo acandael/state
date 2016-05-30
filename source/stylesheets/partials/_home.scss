@@ -19,7 +19,7 @@ section.hero {
   }
 }
 
-section.news, section.publications, section.blogfeat {
+section.newsfeed, section.publications, section.blogfeed {
   @include span-columns(6);
   text-align: center;
   p {
@@ -27,7 +27,7 @@ section.news, section.publications, section.blogfeat {
   }
 }
 
-section.news {
+section.newsfeed {
   @include omega;
   float: right;
 }
@@ -36,6 +36,6 @@ section.publications {
   margin-bottom: 3.375em;
 }
 
-section.blogfeat {
+section.blogfeed {
   @include omega;
 }
