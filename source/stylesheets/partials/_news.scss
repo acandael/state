@@ -1,0 +1,17 @@
+section.news {
+  float: none;
+  @include shift(3);
+  article.item {
+    margin-bottom: 5.063em;
+    h2 {
+      text-align: center;
+    }
+    .date {
+      text-align: center;
+    }
+    .line {
+      margin-top: 3.375em;
+      width: 15%;
+    }
+  }
+}
