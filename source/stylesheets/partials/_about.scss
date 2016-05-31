@@ -7,12 +7,16 @@ header {
 }
 
 section.content {
-  @include span-columns(8);
-  @include shift(2);
-  margin-bottom: 3.375em;
+  @include media($medium-screen) {
+    @include span-columns(8);
+    @include shift(2);
+    margin-bottom: 3.375em;
+  }
 
   p {
-    margin-bottom: 3.375em;
+    @include media($medium-screen) {
+      margin-bottom: 3.375em;
+    }
   }
 
 }
