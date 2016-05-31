@@ -38,6 +38,10 @@ p {
   font-size: 0.667em;
 }
 
+.underline {
+  border-bottom: 2px solid $action-color;
+}
+
 div.line {
   margin: 0 auto;
   margin-top: 0;
