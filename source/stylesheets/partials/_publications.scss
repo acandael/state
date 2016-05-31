@@ -2,14 +2,19 @@ header {
   h1 {
     font-size: 2.25em;
   }
-  margin-bottom: 5.063em;
+  @include media($medium-screen) {
+    margin-bottom: 5.063em;
+  }
 }
 section.pub {
 
   article.year {
-    margin-bottom: 5.063em;
-    text-align: center;
-
+    @include media($medium-screen) {
+      margin-bottom: 5.063em;
+    }
+    h2 {
+      text-align: center;
+    }
     .line {
       margin-top: 3.375em;
     }
