@@ -10,11 +10,13 @@ article.article {
     margin-top: 0.667em;
     margin-bottom: 5.063em;
   }
-  @include shift(1);
+  @include media($medium-screen) {
+    @include shift(1);
+  }
   .body {
     @include media($medium-screen) {
-    @include span-columns(8);
-    @include shift(1);
+      @include span-columns(8);
+      @include shift(1);
     }
     margin-top: 3.375em;
     p {
