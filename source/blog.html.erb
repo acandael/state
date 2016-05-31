@@ -10,8 +10,8 @@ description: "This is the blog page for the Performing a State project"
   <% blog.articles[0...5].each do |article| %>
   <article class="item">
     <h2><a href="<%= article.url %>"><%= article.title %></a></h2>
-    <p class="date">15 May 2016</p>
+    <p class="date"><time><%= article.date.strftime('%b %e %Y') %></time></p>
     <div class="line">&nbsp;</div>
   </article>
-  <% end >
+  <% end %>
 </section>
