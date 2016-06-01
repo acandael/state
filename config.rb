@@ -48,3 +48,6 @@ activate :blog do |blog|
   blog.permalink = "{title}.html"
   blog.prefix = "blog"
 end
+
+set :url_root, 'http://performing-a-state.ugent.be'
+activate :search_engine_sitemap

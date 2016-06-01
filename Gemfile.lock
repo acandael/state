@@ -9,6 +9,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     backports (3.6.8)
+    builder (3.2.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -80,6 +81,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-search_engine_sitemap (1.4.0)
+      builder
+      middleman-core (~> 4.0)
     minitest (5.9.0)
     padrino-helpers (0.13.2)
       i18n (~> 0.6, >= 0.6.7)
@@ -111,5 +115,6 @@ DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-blog
   middleman-livereload
+  middleman-search_engine_sitemap (~> 1.4)
   tzinfo-data
   wdm (~> 0.1.0)
