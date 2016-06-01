@@ -3,26 +3,26 @@ description: "Performing a State is a postdoctoral research project that examine
 ---
 
 <section class="hero">
-  <p>Performing a State is a postdoctoral research project that examines the interconnection of knowledge and practice when statebuilding</p>
+  <p>How we understand the state is just as important a question as how the state is crafted in particular periods of time</p>
   <form action="about.html" method="get">
   <button>More Info</button>
   </form>
 </section><!-- hero -->
 <section class="newsfeed">
-  <h2>News</h2>
+  <h2><a href="/news.html">News</a></h2>
   <div class="line">&nbsp;</div>
   <p><a href="electrifying-middle-east-and-north-african-studies.html">Electrifying Middle East and North African Studies</a><br>
-  <span class="date">12 June 2016</span>
+  <span class="date">31 May 2016</span>
   </p>
 </section><!-- news -->
 <div class="row">
 <section class="publications">
-  <h2>Publications</h2>
+  <h2><a href="/publications.html">Publications</a></h2>
   <div class="line">&nbsp;</div>
  <p>Nida Alahmad, "Illuminating a State: Statebuilding and Electricity in Occupied Iraq," Humanity Journal 8, no. 1 (2017).</p>
 </section><!-- publications -->
 <section class="blogfeed">
-  <h2>Blog</h2>
+  <h2><a href="/blog.html">Blog</a></h2>
   <div class="line">&nbsp;</div>
   <% blog.articles[0..3].each do |article| %>
     <p><a href="<%= article.url %>"><%= article.title %></a><br><span class="date"><time><%= article.date.strftime('%b %e %Y') %></time></p>
