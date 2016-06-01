@@ -30,7 +30,10 @@
     color: $dark-gray;
     font-weight: bold;
     border: 2px solid $dark-gray;
-    padding: 1.3em;
+    padding: 1em;
+    @include media($medium-screen) {
+      padding: 1.3em;
+    }
     margin-bottom: 1.5em;
 
     @include media ($medium-screen) {
