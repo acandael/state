@@ -10,6 +10,10 @@ article.article {
     margin-top: 0.667em;
     margin-bottom: 5.063em;
   }
+  .footnote {
+    font-size: small;
+    vertical-align: super;
+  }
   @include media($medium-screen) {
     @include shift(1);
   }
