@@ -18,5 +18,12 @@ section.pub {
     .line {
       margin-top: 3.375em;
     }
+    
+    ul {
+      list-style-type: disc;
+      li {
+        line-height: 2.25em;
+      }
+    }
   }
 }
