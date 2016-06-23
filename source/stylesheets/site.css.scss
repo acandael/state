@@ -21,7 +21,7 @@ body {
   @include outer-container;
   margin-top: 1.5em;
   padding: 1.5em;
-  @include media($medium-screen) {
+  @include media($large-screen) {
     padding: 0;
   }
 }
