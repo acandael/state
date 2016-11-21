@@ -9,7 +9,7 @@ tags:
   <header class="title">
     <h1>GENEALOGIES OF THE COLONIAL PRESENT<br>
 <span class="sub">The rediscovery of the local in conflict management interventions in Mindanao,
-the Southern</span>
+the Southern Philippines</span>
 </h1>
   </header>
   <footer class="date">
