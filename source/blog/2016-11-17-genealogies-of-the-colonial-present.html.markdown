@@ -1,5 +1,5 @@
 ---
-title: Genealogies of the colonial present
+title: Genealogies of the colonial present (guest post)
 date: 2016-11-17 13:43 UTC
 author: Jeroen Adam
 tags:
@@ -7,7 +7,7 @@ tags:
 
 <article class="article">
   <header class="title">
-    <h1>GENEALOGIES OF THE COLONIAL PRESENT<br>
+    <h1>GENEALOGIES OF THE COLONIAL PRESENT (guest post)<br>
 <span class="sub">The rediscovery of the local in conflict management interventions in Mindanao,
 the Southern Philippines</span>
 </h1>
