@@ -1,5 +1,5 @@
 ---
-title: studying politics and performing critique among normative and political ruins
+title: studying politics and performing critique among normative and political ruins (conversation)
 date: 2017-01-31 08:40 UTC
 author: Nida Alahmad
 tags: 
