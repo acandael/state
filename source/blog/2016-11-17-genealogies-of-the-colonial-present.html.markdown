@@ -12,8 +12,8 @@ tags:
 the Southern Philippines</span>
 </h1>
   </header>
-  <footer class="date">
-    <time datetime="11/17/2016">By Jeroen Adam November 2016</time>
+  <footer>
+    <time datetime="11/17/2016">By <a href="http://www.psw.ugent.be/crg/staff.aspx#jeroen" class="underline">Jeroen Adam</a> November 2016</time>
   </footer>
   <div class="line">&nbsp;</div>
   <div class="body">
