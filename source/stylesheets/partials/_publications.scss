@@ -10,6 +10,8 @@ section.pub {
 
   article.year {
     @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
       margin-bottom: 5.063em;
     }
     h2 {
