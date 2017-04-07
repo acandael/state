@@ -87,6 +87,7 @@
     display: block;
     text-align: right;
     width: 100%;
+    margin-bottom: 2.25em;
 
     @include media ($medium-screen) {
       background: transparent;
