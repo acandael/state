@@ -18,7 +18,7 @@
 
 
 body {
-  @include outer-container;
+  @include outer-container(80%);
   margin-top: 1.5em;
   padding: 1.5em;
   @include media(1025px) {
