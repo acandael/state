@@ -18,10 +18,11 @@
 
 
 body {
-  @include outer-container(80%);
+  @include outer-container;
   margin-top: 1.5em;
   padding: 1.5em;
   @include media(1025px) {
+    @include outer-container(80%);
     padding: 0;
   }
 }
