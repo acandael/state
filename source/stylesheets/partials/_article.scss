@@ -3,6 +3,10 @@ article.article {
     margin-bottom: 0;
     h1 {
       margin-bottom: 0;
+      font-size: 1.5em;
+      @include media($large-screen) {
+        font-size: 2em;
+      }
     } 
     .sub {
       font-size: smaller;
