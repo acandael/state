@@ -17,8 +17,7 @@ description: "How we understand the state is just as important a question as how
   <span class="date">28 April, 2017</span>
   <p><a href="/evidences_and_futures.html">Public Lecture &amp; Seminar: Evidences and Futures</a></p>
   <span class="date">15 May, 2017</span>
-  <p><a href="http://www.normativeorders.net/de/component/content/article/69-veranstaltungen/4577-the-value-of-critique">The Value of Critique Symposium</a></p>
-  <span class="date">January 19-20, 2017</span>
+ <p class="more"><a class="underline"  href="/news.html">More news &hellip;</a></p>
 </section><!-- news -->
 <div class="row">
 <section class="publications">
@@ -33,6 +32,7 @@ description: "How we understand the state is just as important a question as how
   <% blog.articles[0..3].each do |article| %>
     <p><a href="<%= article.url %>"><%= article.title %></a><br><span class="date"><time><%= article.date.strftime('%b %e %Y') %></time></p>
   <% end %>
+ <p class="more"><a class="underline"  href="/blog.html">More blog posts &hellip;</a></p>
 </section>
 </div><!-- row -->
 
